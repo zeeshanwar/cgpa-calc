@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Laila&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@700&display=swap');
+
+
+
+body {
+     /* background: teal; */
+     background-image: url('images/pexels-mitchell-luo-3645123.jpg');
+     background-size: cover;
+     background-blend-mode: soft-light;
+}
+
+/* .bodycontainer::before{
+     content: ' ';
+     display: block;
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0.6;
+     background-image: url('images/pexels-mitchell-luo-3645123.jpg');
+     background-repeat: no-repeat;
+     background-position: 50% 0;
+     background-size: cover;
+} */
+
+.pagebody{
+     /* background: cornsilk;
+     border: 3px solid red; */
+     border-radius: 10px;
+     justify-content: space-evenly;
+     align-items: center;
+     font-family: 'Laila', sans-serif;
+     font-family: 'Ubuntu', sans-serif;
+
+}
+
+.heading{
+     
+}
+
+h1{
+     color: #520D80;
+     display: inline-block;
+     background: cornsilk;
+     position: sticky;
+     top: 0;
+     right: 0;
+     padding: 20px;
+     border-radius: 36px;
+     border: 3px solid #520D80;
+     font-family: 'Laila', sans-serif;
+     font-weight:bolder;
+     font-size: 50px;
+
+     /* text-decoration-style: 2px solid black; */
+     /* text-underline-offset: 8px; */
+     /* text-decoration: underline solid #520D80 5px;
+     text-underline-position: under; */
+
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+
+     border-bottom: 8px solid #520D80;
+
+     /* text-shadow: 0 0 5px #FF0000, 0 0 3px #00FF00; */
+
+     /* text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000; */
+}
+
+.container{
+     background: lavender;
+     background: rgb(230, 230, 250, 0.8);
+     margin: 10px;
+     padding: 40px 10px 20px 10px;
+     width: 40%;
+     border: 3px solid darkgoldenrod;
+     border-radius: 20px;
+}
+
+input{
+     background: seashell;
+     border: 3px ridge silver;
+     border-radius: 5px;
+     padding: 5px;
+     margin: 5px;
+     width: 10%;
+}
+
+.semsplit{
+     width: 80%;
+}
+
+.resultsplit{
+     width: 100%;
+}
+
+
+.resultcontainer {
+     background-color: rgb(255, 192, 203, 0.8);
+     display: none;
+     text-align: center;
+     margin: 10px;
+     padding: 50px;
+     width: 66vh;
+     /* height: 77vh; */
+     border: 3px solid darkgoldenrod;
+     border-radius: 20px;
+}
+
+.extraresult{
+     /* border: 3px solid green;
+     border-radius: 10px; */
+     padding: 20px;
+}
+
+.extraresult::after{
+     /* content: "<hr class="resultsplit">"; */
+     /* content: " . ";
+     border: 3px solid blue; */
+}
+
+#submitarea{
+     padding: 10px;
+     /* margin: 10px; */
+}
+
+#submit{
+     background: plum;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: bolder;
+     padding: 10px;
+     border-radius: 5px;
+     border: 2px groove black;
+     display: none;
+     /* opacity: 0; */
+}
+
+#submit:hover{
+     background: orchid;
+     cursor: pointer;
+}
+
+#reset{
+     background: tan;
+     display: none;
+     margin: 10px;
+     padding: 6px;
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 12px;
+     font-weight: bold;
+     border-radius: 10px;
+     border: 1px groove black;
+     
+}
+
+#reset:hover{
+     /* background-color: sienna; */
+     background-color: bisque;
+     cursor: pointer;
+}
+
+#resetarea{
+     align-items: center;
+}
+
+
+
+@media screen and (max-width: 800px) {
+     .container{
+          width: 80%;
+     }
+
+     input {
+          width: 20%;
+     }
+}
+
+
+
+
+
+/* .semnos{
+     border: 3px solid purple;
+}
+
+.subcontainer{
+     border: 6px solid dimgray;
+}
+
+#semscount{
+     border: 4px solid steelblue;
+}
+
+#semscontainer{
+     border: 5px solid hotpink;
+}
+
+#submitarea{
+     border: 4px solid green;
+}
+
+#reset{
+     border: 3px solid coral ;
+} */
+
+
