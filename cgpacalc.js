@@ -84,8 +84,10 @@ function takeinput() {
 
           for (let v = 1; v <= semnos; v++) {
 
-               document.getElementById(`sem${v}grd`).value = v+888;
-               document.getElementById(`sem${v}crdt`).value = v+22;
+                    
+                  console.log(v);
+//                document.getElementById(`sem${v}grd`).value = v+888;
+//                document.getElementById(`sem${v}crdt`).value = v+22;
                
           }
 
@@ -340,7 +342,6 @@ function takeinput() {
                finalresult.innerHTML = "";
 
 
-
                // console.log(extraresult.parentNode.childNodes[3].childNodes);
                console.log(extraresult.parentNode);
                console.log(extraresult.childNodes);
@@ -362,7 +363,6 @@ function takeinput() {
 
                for (n = 0; n <= semnos; n++) {
                
-                    // console.log(extras[n]);
 
                     chldrns = extraresult.childNodes[n];
 
@@ -418,6 +418,7 @@ function takeinput() {
 
   
 }
+
 
 
 
